@@ -137,6 +137,19 @@ ul.info li {
 	list-style-type: square;
 }
 
+* {box-sizing:border-box}
+
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
 ul.skills {
 	margin:0;
 	padding:0;
